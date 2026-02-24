@@ -24,7 +24,7 @@ app = FastAPI(
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://SpaceNamee.github.io"
+    "https://spacenamee.github.io"
 ]
 
 app.add_middleware(
