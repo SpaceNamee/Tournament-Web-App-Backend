@@ -1,0 +1,3591 @@
+###
+GET http://127.0.0.1:8000/
+Accept: application/json
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test",
+  "email": "test@gmail.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test1",
+  "email": "test1@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test2",
+  "email": "test2@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test3",
+  "email": "test3@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test4",
+  "email": "test4@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test5",
+  "email": "test5@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test6",
+  "email": "test6@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test7",
+  "email": "test7@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test8",
+  "email": "test8@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test9",
+  "email": "test9@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test10",
+  "email": "test10@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test11",
+  "email": "tesе11@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test12",
+  "email": "test12@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test13",
+  "email": "test13@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test14",
+  "email": "test14@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test15",
+  "email": "test15@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test16",
+  "email": "test16@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test17",
+  "email": "test17@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test18",
+  "email": "test18@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test19",
+  "email": "test19@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test20",
+  "email": "test20@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test21",
+  "email": "test21@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test22",
+  "email": "test22@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test23",
+  "email": "test23@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test24",
+  "email": "test24@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test25",
+  "email": "test25@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test26",
+  "email": "test26@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test27",
+  "email": "tesе27@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test28",
+  "email": "test28@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test29",
+  "email": "test29@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test30",
+  "email": "test30@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test31",
+  "email": "test31@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test32",
+  "email": "test32@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test33",
+  "email": "test33@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test34",
+  "email": "test34@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test35",
+  "email": "test35@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test36",
+  "email": "test36@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test37",
+  "email": "test37@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test38",
+  "email": "test38@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test39",
+  "email": "test39@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test40",
+  "email": "test40@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test41",
+  "email": "test41@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test42",
+  "email": "test42@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test43",
+  "email": "tesе43@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test44",
+  "email": "test44@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test45",
+  "email": "test45@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test46",
+  "email": "test46@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test47",
+  "email": "test47@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test48",
+  "email": "test48@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test49",
+  "email": "test49@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test50",
+  "email": "test50@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test51",
+  "email": "test51@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test52",
+  "email": "test52@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test53",
+  "email": "test53@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test54",
+  "email": "test54@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test55",
+  "email": "test55@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test56",
+  "email": "test56@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test57",
+  "email": "test57@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test58",
+  "email": "test58@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test59",
+  "email": "tesе59@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test60",
+  "email": "test60@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test61",
+  "email": "test61@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test62",
+  "email": "test62@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test63",
+  "email": "test63@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test64",
+  "email": "test64@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test65",
+  "email": "test65@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test66",
+  "email": "test66@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test67",
+  "email": "test67@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test68",
+  "email": "test68@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test69",
+  "email": "test69@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test70",
+  "email": "test70@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test71",
+  "email": "test71@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test72",
+  "email": "test72@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test73",
+  "email": "test73@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test74",
+  "email": "test74@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test75",
+  "email": "tesе75@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test76",
+  "email": "test76@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test77",
+  "email": "test77@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test78",
+  "email": "test78@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test79",
+  "email": "test79@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test80",
+  "email": "test80@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test81",
+  "email": "test81@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test82",
+  "email": "test82@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test83",
+  "email": "test83@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test84",
+  "email": "test84@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test85",
+  "email": "test85@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test86",
+  "email": "test86@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test87",
+  "email": "test87@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test88",
+  "email": "test88@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test89",
+  "email": "test89@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test90",
+  "email": "test90@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test91",
+  "email": "tesе91@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test92",
+  "email": "test92@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test93",
+  "email": "test93@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test94",
+  "email": "test94@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test95",
+  "email": "test95@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test96",
+  "email": "test96@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test97",
+  "email": "test97@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test98",
+  "email": "test98@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test99",
+  "email": "test99@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test100",
+  "email": "test100@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test101",
+  "email": "test101@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test102",
+  "email": "test102@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test103",
+  "email": "test103@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test104",
+  "email": "test104@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test105",
+  "email": "test105@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test106",
+  "email": "test106@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test107",
+  "email": "tesе107@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test108",
+  "email": "test108@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test109",
+  "email": "test109@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test110",
+  "email": "test110@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test111",
+  "email": "test111@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test112",
+  "email": "test112@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test113",
+  "email": "test113@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test114",
+  "email": "test114@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test115",
+  "email": "test115@gamil.com",
+  "password": "testpass123",
+
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test116",
+  "email": "test116@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test117",
+  "email": "test117@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test118",
+  "email": "test118@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test119",
+  "email": "test119@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test120",
+  "email": "test120@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 1,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 2,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 3,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 4,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 5,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 6,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 7,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 8,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 9,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 10,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 11,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 11,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 11,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+###
+###
+POST http://127.0.0.1:8000/tournaments/create
+Content-Type: application/json
+
+{
+    "name": "Summer Cup",
+    "sport": "football",
+    "bracket_type": "Single Elimination",
+    "visibility": "visible",
+    "participant_type": "team",
+    "number_of_teams": 0,
+    "number_of_player_in_teams": 11,
+    "location": "City Stadium",
+    "min_age": 18,
+    "start_date": "2026-02-21",
+    "location": "Ukraine",
+    "created_by": 13,
+    "organizer_contact": "contact@example.com",
+    "max_teams": 16,
+    "team_details": {
+      "max_teams": 11,
+      "players_per_team": 11
+    }
+}
+###
+###
+
+POST http://127.0.0.1:8000/tournaments/create
+Content-Type: application/json
+
+{
+    "name": "Summer Cup",
+    "sport": "football",
+    "bracket_type": "Double Elimination",
+    "visibility": "visible",
+    "participant_type": "team",
+    "number_of_teams": 0,
+    "number_of_player_in_teams": 11,
+    "location": "City Stadium",
+    "min_age": 18,
+    "start_date": "2026-02-21",
+    "location": "Ukraine",
+    "created_by": 13,
+    "organizer_contact": "contact@example.com",
+    "max_teams": 16,
+    "team_details": {
+      "max_teams": 11,
+      "players_per_team": 11
+    }
+}
+
+###
+###
+
+POST http://127.0.0.1:8000/tournaments/create
+Content-Type: application/json
+
+{
+    "name": "Summer Cup",
+    "sport": "football",
+    "bracket_type": "Group",
+    "visibility": "visible",
+    "participant_type": "team",
+    "number_of_teams": 0,
+    "number_of_player_in_teams": 11,
+    "location": "City Stadium",
+    "min_age": 18,
+    "start_date": "2026-02-21",
+    "location": "Ukraine",
+    "created_by": 13,
+    "organizer_contact": "contact@example.com",
+    "max_teams": 16,
+    "team_details": {
+      "max_teams": 11,
+      "players_per_team": 11
+    }
+}
+
+###
+POST http://127.0.0.1:8000/tournaments/create
+Content-Type: application/json
+
+{
+  "name": "Summer Cup",
+  "sport": "football",
+  "bracket_type": "Single Elimination",
+  "visibility": "visible",
+  "participant_type": "solo",
+  "solo_details": {
+    "max_players": 11
+  },
+  "location": "City Stadium",
+  "min_age": 18,
+  "start_date": "2026-02-21",
+  "location": "Ukraine",
+  "created_by": 1,
+  "organizer_contact": "contact@example.com"
+}
+
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 1
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 2
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 3
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 4
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 5
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 6
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 7
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 8
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 9
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 10
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 11
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 12
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 13
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 14
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 15
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 16
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 17
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 18
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 19
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 20
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 21
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 2,
+  "user_id": 22
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 23
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 24
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 25
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 26
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 27
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 28
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 29
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 30
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 31
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 32
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 3,
+  "user_id": 33
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 34
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 35
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 36
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 37
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 38
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 39
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 40
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 41
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 42
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 43
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 4,
+  "user_id": 44
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 45
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 46
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 47
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 48
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 49
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 50
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 51
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 52
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 53
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 54
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 5,
+  "user_id": 55
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 56
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 57
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 58
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 59
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 60
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 61
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 62
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 63
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 64
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 65
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 6,
+  "user_id": 66
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 67
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 67
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 69
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 70
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 71
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 72
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 73
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 74
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 75
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 76
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 7,
+  "user_id": 77
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 78
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 79
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 80
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 81
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 82
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 83
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 84
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 85
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 86
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 87
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 8,
+  "user_id": 88
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 89
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 90
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 91
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 92
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 93
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 94
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 95
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 96
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 97
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 98
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 9,
+  "user_id": 99
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 100
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 101
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 102
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 103
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 104
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 105
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 106
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 107
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 108
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 109
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 10,
+  "user_id": 110
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 111
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 112
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 113
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 114
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 115
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 116
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 117
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 118
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 119
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 120
+}
+###
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 11,
+  "user_id": 121
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 1
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 2
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 3
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 4
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 5
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 6
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 7
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 8
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 9
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 10
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 11
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 1
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 2
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 3
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 4
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 5
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 6
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 7
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 8
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 9
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 10
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "team_id": 11
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 1
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 2
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 3
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 4
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 5
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 6
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 7
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 8
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 9
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 10
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 3,
+  "team_id": 11
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 1
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 2
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 3
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 4
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 5
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 6
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 7
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 8
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 9
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 10
+}
+###
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 4,
+  "user_id": 11
+}

@@ -1,0 +1,431 @@
+# ==========================
+# Test root endpoint
+# ==========================
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+# ==========================
+# Create a new user №2
+# ==========================
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test1144567",
+  "email": "test1144567@gamil.com",
+  "password": "testpass123",
+  "phone_number": "123456789",
+  "date_of_birth": "2005-05-18",
+  "tournament_notif": false,
+  "match_notif": false,
+  "general_notif": false,
+  "is_admin": false
+}
+
+###
+
+# ==========================
+# Get user by ID №3
+# ==========================
+GET http://127.0.0.1:8000/users/2
+Accept: application/json
+
+###
+
+# ==========================
+# Get user by email №4
+# ==========================
+GET http://127.0.0.1:8000/users/email/test@gamil.com
+Accept: application/json
+###
+
+
+# ==========================
+# Create a team for test1144567
+# ==========================
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "My First Team",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 1,        # <-- id do user test1144567
+    "max_players_in_team": 16,
+    "organizer_contact": "test1144567@gamil.com"
+}
+
+###
+# ==========================
+# Join the team with the creator
+# ==========================
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,    
+  "user_id": 1,   
+  "password": "pass123"
+}
+
+###
+
+
+
+# ==========================
+# Create a team №5
+# ==========================
+POST http://127.0.0.1:8000/teams/create
+Content-Type: application/json
+
+{
+    "name": "Team Pass",
+    "sport": "football",
+    "visibility": "visible",
+    "max_players": 11,
+    "hashed_password": "pass123",
+    "min_age": 18,
+    "location": "Ukraine",
+    "created_by": 1,
+    "max_players_in_team": 16,
+    "organizer_contact": "email@g12.com"
+}
+
+###
+
+# ==========================
+# Get team by ID №6
+# ==========================
+GET http://127.0.0.1:8000/teams/1
+Accept: application/json
+
+###
+
+# ==========================
+# Create a tournament №7
+# ==========================
+POST http://127.0.0.1:8000/tournaments/create
+Content-Type: application/json
+
+{
+    "name": "Summer Cup",
+    "sport": "football",
+    "bracket_type": "Single Elimination",
+    "visibility": "visible",
+    "participant_type": "solo",
+    "number_of_teams": 0,
+    "number_of_player_in_teams": 11,
+    "location": "City Stadium",
+    "min_age": 18,
+    "start_date": "2026-02-21",
+    "location": "Ukraine",
+    "created_by": 13,
+    "organizer_contact": "contact@example.com",
+    "max_teams": 16,
+    "solo_details": {
+      "max_players": 11
+    }
+}
+
+###
+
+# ==========================
+# Get tournament by ID №8
+# ==========================
+GET http://127.0.0.1:8000/tournaments/2
+Accept: application/json
+# ==========================
+# Get tournament by USER ID №9
+# ==========================
+###
+GET http://localhost:8000/tournaments/mytournaments/all?created_by=13
+
+###
+
+# ==========================
+# Get token for login №10
+# ==========================
+POST http://127.0.0.1:8000/auth/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&username=test2&password=testpass123
+###
+# ============================
+#Register the user №11
+#=============================
+POST http://127.0.0.1:8000/auth/register
+Content-Type: application/json
+
+{
+  "name": "test",
+  "nickname": "test11112",
+  "date_of_birth": "2005-05-18",
+  "email": "test222212231@gamil.com",
+  "password": "testpass123"
+}
+###
+# ============================
+#Edit the user №12
+#=============================
+PATCH http://127.0.0.1:8000/users/alter/15
+Content-Type: application/json
+
+{
+  "nickname": "PeaceDeath",
+  "email": "test123111111@gmail.com"
+}
+###
+# ============================
+#Join solo tournaments №13
+#=============================
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 2,
+  "user_id": 5
+}
+###
+# ============================
+#Join team tournaments №14
+#=============================
+POST http://127.0.0.1:8000/tournaments/join
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 3
+}
+###
+# ============================
+#Leave solo tournaments №15
+#=============================
+POST http://127.0.0.1:8000/tournaments/leave
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "user_id":3
+}
+###
+# ============================
+#Leave team tournaments №16
+#=============================
+POST http://127.0.0.1:8000/tournaments/leave
+Content-Type: application/json
+
+{
+  "tournament_id": 1,
+  "team_id": 3
+}
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/all_active
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/all
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/mytournaments/all_active?created_by=13
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/mytournaments/history?created_by=13
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/details/active/1
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/details/all/1
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/filter/joined?user_id=2
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/filter/min_age?min_age=18
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/filter/sport?sport=football
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+GET http://127.0.0.1:8000/tournaments/filter/sport?sport=football
+###
+###
+# ============================
+#Get all active tournaments№17
+#=============================
+DELETE http://127.0.0.1:8000/tournaments/delete/2
+###
+###
+# ============================
+#Join team №17
+#=============================
+POST http://127.0.0.1:8000/teams/join
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 5,
+  "password": "pass123"
+}
+###
+# ============================
+#Leave team №17
+#=============================
+POST http://127.0.0.1:8000/teams/leave
+Content-Type: application/json
+
+{
+  "team_id": 1,
+  "user_id": 4
+}
+###
+###
+
+GET http://127.0.0.1:8000/teams/all
+###
+
+GET http://127.0.0.1:8000/teams/all_active?page=2&perPage=10
+###
+###
+
+GET http://127.0.0.1:8000/teams/joined_participants/21
+###
+###
+
+GET http://127.0.0.1:8000/teams/myteams/all?created_by=2
+###
+###
+
+GET http://127.0.0.1:8000/teams/myteams/all_active?created_by=2
+###
+###
+
+GET http://127.0.0.1:8000/teams/sport/?user_id=5&sport=football
+###
+DELETE http://127.0.0.1:8000/teams/delete/11
+###
+
+GET http://127.0.0.1:8000/teams/sport/?user_id=5&sport=football
+###
+###
+# ============================
+#Create matches for tournament №17
+#=============================
+POST http://127.0.0.1:8000/matches/4/generate-matches
+###
+# ============================
+#Get matches by tournament ID №17
+#=============================
+GET http://127.0.0.1:8000/matches/all/2
+###
+###
+# ============================
+#Create matches for tournament №17
+#=============================
+PUT http://127.0.0.1:8000/matches/report_winner
+Content-Type: application/json
+
+{
+  "match_id": 25,
+  "winner": 1
+}
+###
+# ============================
+#Create matches for tournament №17
+#=============================
+GET http://127.0.0.1:8000/users/all
+###
+###
+# ============================
+#Create matches for tournament №17
+#=============================
+GET http://127.0.0.1:8000/users/1
+###
+###
+# ============================
+#Create matches for tournament №17
+#=============================
+GET http://127.0.0.1:8000/users/email/test1@gamil.com
+###
+###
+# ============================
+#Create matches for tournament №17
+#=============================
+GET http://127.0.0.1:8000/users
+###
+###
+
+POST http://127.0.0.1:8000/manual_participants/create_manual
+Content-Type: application/json
+
+{
+  "name": "kurwo",
+  "created_by": 12
+}
+###
+###
+
+GET http://127.0.0.1:8000/manual_participants/all
+###
+###
+
+GET http://127.0.0.1:8000/manual_participants/all_active
+###
+###
+
+GET http://127.0.0.1:8000/manual_participants/by_name/kurwo
+###
+###
+
+GET http://127.0.0.1:8000/manual_participants/1
+###
+###
+
+PUT http://127.0.0.1:8000/manual_participants/alter/1?manual_participant_id=1
+Content-Type: application/json
+
+{
+  "name": "Stepan"
+}
+###
+###
+
+DELETE http://127.0.0.1:8000/manual_participants/delete/1
+###
